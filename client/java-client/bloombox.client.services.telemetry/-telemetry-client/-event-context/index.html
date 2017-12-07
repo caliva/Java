@@ -1,0 +1,132 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>TelemetryClient.EventContext - java-client</title>
+<link rel="stylesheet" href="../../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../../index.html">java-client</a>&nbsp;/&nbsp;<a href="../../index.html">bloombox.client.services.telemetry</a>&nbsp;/&nbsp;<a href="../index.html">TelemetryClient</a>&nbsp;/&nbsp;<a href=".">EventContext</a><br/>
+<br/>
+<h1>EventContext</h1>
+<code><span class="keyword">data</span> <span class="keyword">class </span><span class="identifier">EventContext</span></code>
+<p>Context for an event, with the opportunity to override settings.</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">EventContext</span><span class="symbol">(</span><span class="identifier" id="bloombox.client.services.telemetry.TelemetryClient.EventContext$<init>(kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, io.bloombox.schema.menu.section.Section, io.bloombox.schema.base.ProductKey, kotlin.String, kotlin.String, io.bloombox.schema.telemetry.context.DeviceContext.NativeDeviceContext, io.bloombox.schema.telemetry.context.BrowserContext.BrowserDeviceContext)/partner">partner</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="bloombox.client.services.telemetry.TelemetryClient.EventContext$<init>(kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, io.bloombox.schema.menu.section.Section, io.bloombox.schema.base.ProductKey, kotlin.String, kotlin.String, io.bloombox.schema.telemetry.context.DeviceContext.NativeDeviceContext, io.bloombox.schema.telemetry.context.BrowserContext.BrowserDeviceContext)/location">location</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="bloombox.client.services.telemetry.TelemetryClient.EventContext$<init>(kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, io.bloombox.schema.menu.section.Section, io.bloombox.schema.base.ProductKey, kotlin.String, kotlin.String, io.bloombox.schema.telemetry.context.DeviceContext.NativeDeviceContext, io.bloombox.schema.telemetry.context.BrowserContext.BrowserDeviceContext)/deviceUUID">deviceUUID</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="bloombox.client.services.telemetry.TelemetryClient.EventContext$<init>(kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, io.bloombox.schema.menu.section.Section, io.bloombox.schema.base.ProductKey, kotlin.String, kotlin.String, io.bloombox.schema.telemetry.context.DeviceContext.NativeDeviceContext, io.bloombox.schema.telemetry.context.BrowserContext.BrowserDeviceContext)/userKey">userKey</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="bloombox.client.services.telemetry.TelemetryClient.EventContext$<init>(kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, io.bloombox.schema.menu.section.Section, io.bloombox.schema.base.ProductKey, kotlin.String, kotlin.String, io.bloombox.schema.telemetry.context.DeviceContext.NativeDeviceContext, io.bloombox.schema.telemetry.context.BrowserContext.BrowserDeviceContext)/orderKey">orderKey</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="bloombox.client.services.telemetry.TelemetryClient.EventContext$<init>(kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, io.bloombox.schema.menu.section.Section, io.bloombox.schema.base.ProductKey, kotlin.String, kotlin.String, io.bloombox.schema.telemetry.context.DeviceContext.NativeDeviceContext, io.bloombox.schema.telemetry.context.BrowserContext.BrowserDeviceContext)/section">section</span><span class="symbol">:</span>&nbsp;<span class="identifier">Section</span><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="bloombox.client.services.telemetry.TelemetryClient.EventContext$<init>(kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, io.bloombox.schema.menu.section.Section, io.bloombox.schema.base.ProductKey, kotlin.String, kotlin.String, io.bloombox.schema.telemetry.context.DeviceContext.NativeDeviceContext, io.bloombox.schema.telemetry.context.BrowserContext.BrowserDeviceContext)/item">item</span><span class="symbol">:</span>&nbsp;<span class="identifier">ProductKey</span><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="bloombox.client.services.telemetry.TelemetryClient.EventContext$<init>(kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, io.bloombox.schema.menu.section.Section, io.bloombox.schema.base.ProductKey, kotlin.String, kotlin.String, io.bloombox.schema.telemetry.context.DeviceContext.NativeDeviceContext, io.bloombox.schema.telemetry.context.BrowserContext.BrowserDeviceContext)/fingerprint">fingerprint</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="bloombox.client.services.telemetry.TelemetryClient.EventContext$<init>(kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, io.bloombox.schema.menu.section.Section, io.bloombox.schema.base.ProductKey, kotlin.String, kotlin.String, io.bloombox.schema.telemetry.context.DeviceContext.NativeDeviceContext, io.bloombox.schema.telemetry.context.BrowserContext.BrowserDeviceContext)/group">group</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="bloombox.client.services.telemetry.TelemetryClient.EventContext$<init>(kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, io.bloombox.schema.menu.section.Section, io.bloombox.schema.base.ProductKey, kotlin.String, kotlin.String, io.bloombox.schema.telemetry.context.DeviceContext.NativeDeviceContext, io.bloombox.schema.telemetry.context.BrowserContext.BrowserDeviceContext)/nativeContext">nativeContext</span><span class="symbol">:</span>&nbsp;<span class="identifier">NativeDeviceContext</span><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="bloombox.client.services.telemetry.TelemetryClient.EventContext$<init>(kotlin.String, kotlin.String, kotlin.String, kotlin.String, kotlin.String, io.bloombox.schema.menu.section.Section, io.bloombox.schema.base.ProductKey, kotlin.String, kotlin.String, io.bloombox.schema.telemetry.context.DeviceContext.NativeDeviceContext, io.bloombox.schema.telemetry.context.BrowserContext.BrowserDeviceContext)/browserContext">browserContext</span><span class="symbol">:</span>&nbsp;<span class="identifier">BrowserDeviceContext</span><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">)</span></code>
+<p>Context for an event, with the opportunity to override settings.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="browser-context.html">browserContext</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">browserContext</span><span class="symbol">: </span><span class="identifier">BrowserDeviceContext</span><span class="symbol">?</span></code>
+<p>Browser context to send for an event.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="device-u-u-i-d.html">deviceUUID</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">deviceUUID</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code>
+<p>Device UUID to report. Requires a value for <code>partner</code> and <code>location</code>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="fingerprint.html">fingerprint</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">fingerprint</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code>
+<p>Unique fingerprint for an anonymous device.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="group.html">group</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">group</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code>
+<p>Group or session ID for an event.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="item.html">item</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">item</span><span class="symbol">: </span><span class="identifier">ProductKey</span><span class="symbol">?</span></code>
+<p>Item key to report as active for this event.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="location.html">location</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">location</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code>
+<p>Location code for an event. Explicitly overrides <code>defaultLocation</code>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="native-context.html">nativeContext</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">nativeContext</span><span class="symbol">: </span><span class="identifier">NativeDeviceContext</span><span class="symbol">?</span></code>
+<p>Native device context to use for an event.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="order-key.html">orderKey</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">orderKey</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code>
+<p>Order key to report as active for this event.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="partner.html">partner</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">partner</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code>
+<p>Partner code for an event. Explicitly overrides <code>defaultPartner</code>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="section.html">section</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">section</span><span class="symbol">: </span><span class="identifier">Section</span><span class="symbol">?</span></code>
+<p>Menu section to report as active for this event.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="user-key.html">userKey</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">userKey</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code>
+<p>User key to report as active for this event.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

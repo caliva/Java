@@ -1,0 +1,88 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>BloomboxClient - java-client</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">java-client</a>&nbsp;/&nbsp;<a href="../index.html">bloombox.client</a>&nbsp;/&nbsp;<a href=".">BloomboxClient</a><br/>
+<br/>
+<h1>BloomboxClient</h1>
+<code><span class="keyword">class </span><span class="identifier">BloomboxClient</span></code>
+<p>Specifies a unified Bloombox API client, that is capable of calling methods on any service exposed by the Bloombox
+Cloud Platform. At the time of writing, this includes:</p>
+<ul><li><code>shop/v1</code>: Shop service. For submitting orders, verifying customers, enrolling customers, etc.</li>
+<li><code>telemetry/v1beta3</code>: Telemetry service. For submitting telemetry event data of different kinds.</li>
+</ul>
+<h3>Types</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-client-target/index.html">ClientTarget</a></p>
+</td>
+<td>
+<code><span class="keyword">enum</span> <span class="keyword">class </span><span class="identifier">ClientTarget</span></code>
+<p>Specifies client target settings understood by the Java/Kotlin client.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-settings/index.html">Settings</a></p>
+</td>
+<td>
+<code><span class="keyword">data</span> <span class="keyword">class </span><span class="identifier">Settings</span></code>
+<p>Specifies client settings that can be passed in to modify RPC behavior.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">BloomboxClient</span><span class="symbol">(</span><span class="identifier" id="bloombox.client.BloomboxClient$<init>(bloombox.client.BloomboxClient.Settings, bloombox.client.BloomboxClient.ClientTarget)/settings">settings</span><span class="symbol">:</span>&nbsp;<a href="-settings/index.html"><span class="identifier">Settings</span></a><span class="symbol">, </span><span class="identifier" id="bloombox.client.BloomboxClient$<init>(bloombox.client.BloomboxClient.Settings, bloombox.client.BloomboxClient.ClientTarget)/target">target</span><span class="symbol">:</span>&nbsp;<a href="-client-target/index.html"><span class="identifier">ClientTarget</span></a>&nbsp;<span class="symbol">=</span>&nbsp;ClientTarget.LOCAL<span class="symbol">)</span></code>
+<p>Specifies a unified Bloombox API client, that is capable of calling methods on any service exposed by the Bloombox
+Cloud Platform. At the time of writing, this includes:</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="close.html">close</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">close</span><span class="symbol">(</span><span class="identifier" id="bloombox.client.BloomboxClient$close(kotlin.Boolean, kotlin.Boolean, kotlin.Pair((kotlin.Long, java.util.concurrent.TimeUnit)))/soft">soft</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a>&nbsp;<span class="symbol">=</span>&nbsp;true<span class="symbol">, </span><span class="identifier" id="bloombox.client.BloomboxClient$close(kotlin.Boolean, kotlin.Boolean, kotlin.Pair((kotlin.Long, java.util.concurrent.TimeUnit)))/block">block</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a>&nbsp;<span class="symbol">=</span>&nbsp;true<span class="symbol">, </span><span class="identifier" id="bloombox.client.BloomboxClient$close(kotlin.Boolean, kotlin.Boolean, kotlin.Pair((kotlin.Long, java.util.concurrent.TimeUnit)))/timeout">timeout</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html"><span class="identifier">Pair</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">,</span>&nbsp;<span class="identifier">TimeUnit</span><span class="symbol">&gt;</span><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Close all client connections.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="shop.html">shop</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">shop</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="../../bloombox.client.services.shop/-shop-client/index.html"><span class="identifier">ShopClient</span></a></code>
+<p>Fetch a reference to the Shop API client.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="telemetry.html">telemetry</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">telemetry</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="../../bloombox.client.services.telemetry/-telemetry-client/index.html"><span class="identifier">TelemetryClient</span></a></code>
+<p>Fetch a reference to the Telemetry API client.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

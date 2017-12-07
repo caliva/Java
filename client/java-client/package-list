@@ -1,0 +1,9 @@
+$dokka.format:html
+$dokka.linkExtension:html
+
+bloombox.client
+bloombox.client.interfaces
+bloombox.client.internals.err
+bloombox.client.internals.rpc
+bloombox.client.services.shop
+bloombox.client.services.telemetry

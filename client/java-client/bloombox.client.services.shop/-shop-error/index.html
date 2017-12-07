@@ -1,0 +1,87 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>ShopError - java-client</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">java-client</a>&nbsp;/&nbsp;<a href="../index.html">bloombox.client.services.shop</a>&nbsp;/&nbsp;<a href=".">ShopError</a><br/>
+<br/>
+<h1>ShopError</h1>
+<code><span class="keyword">enum</span> <span class="keyword">class </span><span class="identifier">ShopError</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../../bloombox.client.interfaces/-client-error/index.html"><span class="identifier">ClientError</span></a></code>
+<p>Enumerates known or otherwise identifiable shop errors that might occur.</p>
+<h3>Enum Values</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-p-a-r-t-n-e-r_-i-n-v-a-l-i-d/index.html">PARTNER_INVALID</a></p>
+</td>
+<td>
+<p>Specifies that the partner code was missing or invalid.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-l-o-c-a-t-i-o-n_-i-n-v-a-l-i-d/index.html">LOCATION_INVALID</a></p>
+</td>
+<td>
+<p>Specifies that the location code was missing or invalid.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-c-o-n-n-e-c-t-i-o-n_-r-e-f-u-s-e-d/index.html">CONNECTION_REFUSED</a></p>
+</td>
+<td>
+<p>Specifies that a connection was refused.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Inherited Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../bloombox.client.interfaces/-client-error/code.html">code</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">code</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>Integer error code. Usually derived from an enum's value.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../../bloombox.client.interfaces/-client-error/domain.html">domain</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">domain</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>The "domain" of the error is usually the name of the service.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../../bloombox.client.interfaces/-client-error/message.html">message</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">message</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>Error message to return or display.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="shop-domain.html">shopDomain</a></p>
+</td>
+<td>
+<code><span class="keyword">const</span> <span class="keyword">val </span><span class="identifier">shopDomain</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

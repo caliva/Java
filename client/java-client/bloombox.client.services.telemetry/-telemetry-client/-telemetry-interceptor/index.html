@@ -1,0 +1,54 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>TelemetryClient.TelemetryInterceptor - java-client</title>
+<link rel="stylesheet" href="../../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../../index.html">java-client</a>&nbsp;/&nbsp;<a href="../../index.html">bloombox.client.services.telemetry</a>&nbsp;/&nbsp;<a href="../index.html">TelemetryClient</a>&nbsp;/&nbsp;<a href=".">TelemetryInterceptor</a><br/>
+<br/>
+<h1>TelemetryInterceptor</h1>
+<code><span class="keyword">class </span><span class="identifier">TelemetryInterceptor</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">ClientInterceptor</span></code>
+<p>Interceptor for telemetry auth.</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">TelemetryInterceptor</span><span class="symbol">(</span><span class="identifier" id="bloombox.client.services.telemetry.TelemetryClient.TelemetryInterceptor$<init>(kotlin.String)/apikey">apikey</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span><span class="symbol">)</span></code>
+<p>Interceptor for telemetry auth.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="apikey.html">apikey</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">apikey</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="intercept-call.html">interceptCall</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">ReqT</span><span class="symbol">, </span><span class="identifier">RespT</span><span class="symbol">&gt;</span> <span class="identifier">interceptCall</span><span class="symbol">(</span><span class="identifier" id="bloombox.client.services.telemetry.TelemetryClient.TelemetryInterceptor$interceptCall(io.grpc.MethodDescriptor((bloombox.client.services.telemetry.TelemetryClient.TelemetryInterceptor.interceptCall.ReqT, bloombox.client.services.telemetry.TelemetryClient.TelemetryInterceptor.interceptCall.RespT)), io.grpc.CallOptions, io.grpc.Channel)/method">method</span><span class="symbol">:</span>&nbsp;<span class="identifier">MethodDescriptor</span><span class="symbol">&lt;</span><span class="identifier">ReqT</span><span class="symbol">,</span>&nbsp;<span class="identifier">RespT</span><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="bloombox.client.services.telemetry.TelemetryClient.TelemetryInterceptor$interceptCall(io.grpc.MethodDescriptor((bloombox.client.services.telemetry.TelemetryClient.TelemetryInterceptor.interceptCall.ReqT, bloombox.client.services.telemetry.TelemetryClient.TelemetryInterceptor.interceptCall.RespT)), io.grpc.CallOptions, io.grpc.Channel)/callOptions">callOptions</span><span class="symbol">:</span>&nbsp;<span class="identifier">CallOptions</span><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="bloombox.client.services.telemetry.TelemetryClient.TelemetryInterceptor$interceptCall(io.grpc.MethodDescriptor((bloombox.client.services.telemetry.TelemetryClient.TelemetryInterceptor.interceptCall.ReqT, bloombox.client.services.telemetry.TelemetryClient.TelemetryInterceptor.interceptCall.RespT)), io.grpc.CallOptions, io.grpc.Channel)/next">next</span><span class="symbol">:</span>&nbsp;<span class="identifier">Channel</span><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">ClientCall</span><span class="symbol">&lt;</span><span class="identifier">ReqT</span><span class="symbol">,</span>&nbsp;<span class="identifier">RespT</span><span class="symbol">&gt;</span><span class="symbol">?</span></code>
+<p>Intercept and rewrite a gRPC call.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

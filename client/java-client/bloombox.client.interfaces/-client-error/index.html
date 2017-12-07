@@ -1,0 +1,61 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>ClientError - java-client</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">java-client</a>&nbsp;/&nbsp;<a href="../index.html">bloombox.client.interfaces</a>&nbsp;/&nbsp;<a href=".">ClientError</a><br/>
+<br/>
+<h1>ClientError</h1>
+<code><span class="keyword">interface </span><span class="identifier">ClientError</span></code>
+<p>Specifies a Bloombox client error that is known and identifiable. This interface is implemented by service-specific
+error enumerations. Each enumeration must define properties to export its own domain, code, and message.</p>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="code.html">code</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">code</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>Integer error code. Usually derived from an enum's value.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="domain.html">domain</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">domain</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>The "domain" of the error is usually the name of the service.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="message.html">message</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">message</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>Error message to return or display.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Inheritors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../bloombox.client.services.shop/-shop-error/index.html">ShopError</a></p>
+</td>
+<td>
+<code><span class="keyword">enum</span> <span class="keyword">class </span><span class="identifier">ShopError</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">ClientError</span></code>
+<p>Enumerates known or otherwise identifiable shop errors that might occur.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
